@@ -20,12 +20,11 @@
                         <h3 class="entry-title">{{ post_detail.name }}</h3>
                         <div class="property-single-meta">
                             <ul class="clearfix">
-                                <li><span>Property ID :</span> {{ post_detail.property_id }}</li>
-                                <li><span>City :</span> {{ post_detail.location }}</li>
-                                <li><span>Bedrooms :</span> {{ post_detail.bedrooms }}</li>
-                                <li><span>Bathrooms :</span> {{ post_detail.bathrooms }}</li>
-                                <li><span>Price :</span> {{ post_detail.price }}</li>
-                                <li><span>Address :</span> {{ post_detail.address }}</li>
+                                <li><span>City :</span> {{ post.location }}</li>
+                                <li><span>Bedrooms :</span> {{ post.bedrooms }}</li>
+                                <li><span>Bathrooms :</span> {{ post.bathrooms }}</li>
+                                <li><span>Price :</span> {{ post.price }}</li>
+                                <li><span>Address :</span> {{ post.address }}</li>
                             </ul>
                         </div>
                     </section>
@@ -34,7 +33,7 @@
                         <div class="entry-title clearfix">
                             <h4 class="pull-left">Description </h4><a class="pull-right print-btn" href="javascript:window.print()">Print This Property <i class="fa fa-print"></i></a>
                         </div>
-                        <p><li>{{ post_detail.description }}</li></p>
+                        <p><li>{{ post.description }}</li></p>
                     </section>
 
                     <section class="property-single-features common clearfix">

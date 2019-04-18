@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e375e42c-dc6b-4b38-af8a-289e68756241" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shareLifeWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shareLifeWeb.iml" afterDir="false" />
+    <list default="true" id="e375e42c-dc6b-4b38-af8a-289e68756241" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareLife/csvimport.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareLife/csvimport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareLife/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareLife/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareLife/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shareLifeWeb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareLifeWeb/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/single-property.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/single-property.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +26,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -40,12 +52,12 @@
     <session id="-90987695">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="5" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,12 +68,12 @@
           <entry key="csv" value="2" />
           <entry key="django_admin_log" value="2" />
           <entry key="django_session" value="1" />
-          <entry key="html" value="14" />
+          <entry key="html" value="17" />
           <entry key="jpg" value="7" />
           <entry key="png" value="8" />
-          <entry key="py" value="66" />
+          <entry key="py" value="72" />
           <entry key="sharelife_location" value="2" />
-          <entry key="sharelife_post" value="2" />
+          <entry key="sharelife_post" value="4" />
           <entry key="sharelife_post_tags" value="1" />
           <entry key="sharelife_postdetail" value="1" />
           <entry key="sql" value="2" />
@@ -71,61 +83,53 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="13" />
-          <entry key="HTML" value="14" />
+          <entry key="Database Element" value="15" />
+          <entry key="HTML" value="17" />
           <entry key="Image" value="15" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="66" />
+          <entry key="Python" value="72" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="294" />
-          <entry key="py" value="984" />
-          <entry key="py@shareLifeWeb" value="346" />
+          <entry key="py" value="992" />
+          <entry key="py@shareLifeWeb" value="397" />
+          <entry key="txt" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="342" />
+          <entry key="CommandLine" value="393" />
           <entry key="HTML" value="294" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="984" />
+          <entry key="PLAIN_TEXT" value="87" />
+          <entry key="Python" value="992" />
         </counts>
       </usages-collector>
     </session>
     <session id="-899854275">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1166" />
-          <entry key="py@shareLifeWeb" value="238" />
+          <entry key="py" value="753" />
+          <entry key="py@shareLifeWeb" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="237" />
+          <entry key="CommandLine" value="107" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="1166" />
+          <entry key="Python" value="753" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="1" />
-          <entry key="py" value="27" />
+          <entry key="py" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="27" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="Python" value="20" />
         </counts>
       </usages-collector>
     </session>
@@ -135,8 +139,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shareLife/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="389">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="e#27#55#0" expanded="true" />
               </folding>
@@ -145,30 +149,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareLife/csvimport.py">
+        <entry file="file://$PROJECT_DIR$/shareLife/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareLife/listings.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareLife/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
+        <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/sharelife_post">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -176,32 +172,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shareLifeWeb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+            <state relative-caret-position="277">
+              <caret line="109" column="17" lean-forward="true" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareLife/tests.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareLife/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareLifeWeb/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -229,6 +203,7 @@
       <find>property-single</find>
       <find>post_detail_list</find>
       <find>installed</find>
+      <find>author</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -238,7 +213,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/template/registration/logged_out.html" />
-        <option value="$PROJECT_DIR$/shareLifeWeb/settings.py" />
         <option value="$PROJECT_DIR$/shareLifeWeb/urls.py" />
         <option value="$PROJECT_DIR$/template/post_form.html" />
         <option value="$PROJECT_DIR$/template/registration/login.html" />
@@ -250,17 +224,16 @@
         <option value="$PROJECT_DIR$/template copy/single-property.html" />
         <option value="$PROJECT_DIR$/shareLife/migrations/0002_auto_20190328_1945.py" />
         <option value="$PROJECT_DIR$/template/index.html" />
-        <option value="$PROJECT_DIR$/template/single-property.html" />
         <option value="$PROJECT_DIR$/shareLife/admin.py" />
         <option value="$PROJECT_DIR$/shareLife/forms.py" />
         <option value="$PROJECT_DIR$/shareLife/urls.py" />
         <option value="$PROJECT_DIR$/shareLife/migrations/0004_auto_20190418_0441.py" />
         <option value="$PROJECT_DIR$/shareLife/views.py" />
         <option value="$PROJECT_DIR$/models.py" />
-        <option value="$PROJECT_DIR$/shareLife/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/shareLife/csvimport.py" />
+        <option value="$PROJECT_DIR$/template/single-property.html" />
+        <option value="$PROJECT_DIR$/shareLifeWeb/settings.py" />
         <option value="$PROJECT_DIR$/shareLife/models.py" />
-        <option value="$PROJECT_DIR$/shareLife/migrations/0002_auto_20190418_2121.py" />
       </list>
     </option>
   </component>
@@ -270,9 +243,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="541" />
-    <option name="y" value="73" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="16" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="808" />
   </component>
@@ -282,7 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,10 +278,16 @@
               <item name="CS411Website" type="462c0819:PsiDirectoryNode" />
               <item name="shareLifeWeb" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CS411Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS411Website" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,6 +369,21 @@
       <option name="presentableId" value="Default" />
       <updated>1553751405644</updated>
     </task>
+    <task id="LOCAL-00001" summary="can't find out the problem of importing data from db to django">
+      <created>1555614901139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555614901139</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add csv file">
+      <created>1555614990187</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555614990187</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -403,9 +396,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="808" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1502146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26180258" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -415,13 +408,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32914925" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32771084" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32289156" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282123" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.56005585" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.4192771" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32650602" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32891566" />
-      <window_info anchor="bottom" id="manage.py@shareLifeWeb" order="13" sideWeight="0.49928468" weight="0.39036146" />
+      <window_info anchor="bottom" id="manage.py@shareLifeWeb" order="13" sideWeight="0.49928468" visible="true" weight="0.12849163" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32891566" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -436,6 +429,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="can't find out the problem of importing data from db to django" />
+    <MESSAGE value="add csv file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add csv file" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -447,19 +445,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="29" column="60" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="60" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/shareLife/static/assets/images/slider/2.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/single-property.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/shareLife/static/assets/images/slider/1.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/template/说明.htm">
       <provider selected="true" editor-type-id="text-editor" />
@@ -474,16 +464,6 @@
     <entry file="file://$USER_HOME$/anaconda3/envs/webDevelop/lib/python3.6/site-packages/django/db/models/query.py" />
     <entry file="file://$USER_HOME$/anaconda3/envs/webDevelop/lib/python3.6/site-packages/django/db/models/sql/query.py" />
     <entry file="file://$PROJECT_DIR$/shareLife/migrations/0004_auto_20190418_0441.py" />
-    <entry file="file://$PROJECT_DIR$/shareLife/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#1#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shareLifeWeb/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -491,74 +471,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shareLifeWeb/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/shareLife/migrations/0009_test.py" />
     <entry file="file://$PROJECT_DIR$/shareLife/migrations/0004_postdetail.py" />
     <entry file="file://$PROJECT_DIR$/shareLife/migrations/0005_auto_20190416_0340.py" />
     <entry file="file://$PROJECT_DIR$/shareLife/migrations/0006_auto_20190416_2044.py" />
     <entry file="file://$PROJECT_DIR$/shareLife/migrations/0007_auto_20190416_2140.py" />
     <entry file="file://$PROJECT_DIR$/shareLife/migrations/0008_auto_20190418_0231.py" />
-    <entry file="file://$PROJECT_DIR$/shareLife/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/shareLife/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shareLife/migrations/0004_auto_20190418_1728.py" />
     <entry file="file://$PROJECT_DIR$/shareLife/migrations/0003_auto_20190329_1359.py" />
     <entry file="file://$PROJECT_DIR$/shareLife/migrations/0002_auto_20190328_1945.py" />
     <entry file="file://$PROJECT_DIR$/shareLife/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shareLife/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py" />
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/sharelife_postdetail" />
-    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/auth_permission" />
-    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/auth_user" />
-    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/auth_user_groups" />
-    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/django_session" />
-    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/sharelife_post_tags" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5e63f462-a89b-49de-8385-43e638fb124f/console.sql" />
-    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/django_admin_log" />
-    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/sharelife_location" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/99cb622d-de3e-48be-8ed5-24d34353ad79/console.sql" />
-    <entry file="file://$PROJECT_DIR$/db.sqlite3">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/sharelife_post" />
-    <entry file="das://99cb622d-de3e-48be-8ed5-24d34353ad79/schema/main/table/sqlite_master" />
-    <entry file="file://$PROJECT_DIR$/shareLife/ImportData.py" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/webDevelop/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="224" lean-forward="true" selection-start-line="224" selection-end-line="224" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shareLife/migrations/0002_post_pic_url.py" />
-    <entry file="file://$PROJECT_DIR$/shareLife/listings.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shareLife/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shareLife/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shareLife/forms.py">
@@ -571,44 +499,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shareLifeWeb/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/shareLife/csvimport.py">
+    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/sharelife_postdetail" />
+    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/auth_permission">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/auth_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/auth_user_groups">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/django_session" />
+    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/sharelife_post_tags">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareLife/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="1380">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareLife/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5e63f462-a89b-49de-8385-43e638fb124f/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/django_admin_log" />
+    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/sharelife_location">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/99cb622d-de3e-48be-8ed5-24d34353ad79/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://99cb622d-de3e-48be-8ed5-24d34353ad79/schema/main/table/sqlite_master">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareLife/listings.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-981">
+          <caret line="29" column="60" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareLife/ImportData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shareLife/migrations/0002_auto_20190418_2121.py">
+    <entry file="file://$PROJECT_DIR$/template/single-property.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="519">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shareLife/migrations/0001_initial.py">
+    <entry file="file://$PROJECT_DIR$/shareLife/csvimport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareLife/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#1#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareLife/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareLife/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://012470d9-069a-4d1b-a8d0-0d427f5f3e2e/schema/main/table/sharelife_post">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shareLifeWeb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+        <state relative-caret-position="277">
+          <caret line="109" column="17" lean-forward="true" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shareLife/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="389">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#27#55#0" expanded="true" />
           </folding>
